@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SafeBank - Transferência</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SafeBank</h1>
+        
+        <h2>Fazer Transferência</h2>
+        <input type="text" id="cpf-destinatario" placeholder="CPF do Destinatário" required>
+        <input type="number" id="valor-transferencia" placeholder="Valor a Transferir" required>
+        <button id="confirm-transferencia">Transferir</button>
+        <button onclick="window.location.href='dashboard.html'">Voltar</button>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
