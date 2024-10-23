@@ -1,0 +1,26 @@
+{
+    "4444": {
+        "Nome": "elizeu",
+        "Senha": "8888",
+        "SenhaEmergencia": "4321",
+        "Saldo": 900
+    },
+    "0909": {
+        "Nome": "teste1",
+        "Senha": "0000",
+        "SenhaEmergencia": "0000",
+        "Saldo": 0
+    },
+    "wdwdw": {
+        "Nome": "dwdwd",
+        "Senha": "dwdwdw",
+        "SenhaEmergencia": "dwd",
+        "Saldo": 0
+    },
+    "dwd": {
+        "Nome": "wdw",
+        "Senha": "dwd",
+        "SenhaEmergencia": "dwd",
+        "Saldo": 0
+    }
+}

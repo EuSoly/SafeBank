@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerenciamento de Logins</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Logins</h1>
+        <div id="dados"></div> <!-- Local onde os dados serão exibidos -->
+
+        <!-- Botão para adicionar novo usuário -->
+        <button id="adicionarUsuarioButton">Adicionar Usuário</button>
+        
+        <!-- Formulário para adicionar um novo usuário -->
+        <div id="novo-usuario" style="display:none; margin-top: 20px;">
+            <h2>Criar Novo Usuário</h2>
+            <label for="novoNome">Nome:</label>
+            <input type="text" id="novoNome" required>
+            <br>
+            <label for="novoCPF">CPF:</label>
+            <input type="text" id="novoCPF" required>
+            <br>
+            <label for="novaSenha">Senha:</label>
+            <input type="password" id="novaSenha" required>
+            <br>
+            <label for="novaSenhaEmergencia">Senha de Emergência:</label>
+            <input type="password" id="novaSenhaEmergencia" required>
+            <br>
+            <button id="criarUsuarioButton">Criar Usuário</button>
+        </div>
+
+        <!-- Formulário para edição de usuário -->
+        <div id="formulario-edicao" style="display:none;">
+            <h2>Edição de Usuário</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+            <br>
+            <label for="senhaEmergencia">Senha de Emergência:</label>
+            <input type="password" id="senhaEmergencia" required>
+            <br>
+            <button id="salvar">Salvar</button>
+            <button id="cancelar">Cancelar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
